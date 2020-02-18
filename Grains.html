@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grains</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "APPstyle.css">
+    <script>
+        var cal = 0;
+         function addCal(x)
+         {
+
+            cal = cal + (parseInt(x)/2);
+            document.getElementById('out').innerHTML = cal;
+         }
+    </script>
+  </head>
+  <body>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+      <h1>Home</h1>
+      <img src = "Grains.jpg" onclick = "window.location.href = 'ProtoNotes.html'">
+      <h1>Grains</h1>
+    <table>
+      <td><img id ="food" src="Rice.jpg" onclick = "addCal(100)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><img id ="food" src="Popcorn.jpg" onclick = "addCal(50)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><img id ="food" src="Bread.jpg" onclick = "addCal(100)"></td>
+    </table>
+    <table>
+      <td><p id = "counter">1 gram 100 calories</p></td>
+      <td><p id = "counter">1 gram 50 calories</p></td>
+      <td><p id = "counter">1 gram 100 calories</p></td>
+    </table>
+    <h1>Calorie Counter</h1>
+    <span id = "out">0</span>
+    </div>
+    <div class="col-sm-6">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+h1{
+    color: rgb(34, 125, 197);
+    font-size: 50px;
+    font-family: 'Sigmar One', cursive;
+}
+
+body{
+  background-color: rgba(246, 246, 246, 1);
+}
+img{
+    width: 160px;
+    height: 80px;
+    border-radius: 250px;
+}
+
+#title{
+  width: 200px;
+  height: 200px;
+}
+#counter{
+  color: #6b8c21;
+  font-size: 25px;
+  font-family: 'Sigmar One', cursive;
+}
+span{
+  color: #6b8c21;
+  font-size: 25px;
+  font-family: 'Sigmar One', cursive;
+}
+
+   p{
+     width: 200px;
+   }
+#white{
+     color: rgba(246, 246, 246, 1);
+   }
+
+#food{
+  width: 150px;
+  height:150px;
+}
+#eyes{
+  width: 235px;
+  height:100px;
+}
+#Mouth{
+  width: 400px;
+  height: 100px;
+}
+  input:hover{
+            background-color: rgb(195, 195, 195);
+            color: black;
+      }
